@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(65, 5, 62);
+}
+
+header {
+    display: flex;
+    height: 75px;
+    background-color: rgb(255, 238, 241);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+nav a {
+    font-weight: 510;
+    padding-right: 50px;
+}
+
+button{
+    font-size: 1.25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(202, 61, 143, 0.897);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: rgba(202, 61, 143, 0.897);
+    background-color: rgb(255, 224, 229);
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 520px;
+    color: white;
+    background-image: url(foto\ portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1 {font-size: 3em;}
+
+#hero h1{
+    color: rgb(65, 5, 62);
+}
+
+#somos-studyapp .container{
+    text-align: center;
+    padding: 90px 12px;
+    background-color: rgb(255, 238, 241);
+}
+
+#nuestros-recursos{
+    background-color: rgba(247, 141, 203, 0.897);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-recursos .container {
+    padding: 120px 12px 9px 10px;
+    text-align: center;
+}
+
+
+
+#nuestros-recursos h2 {
+    margin-top: -80px;
+    color: rgb(65, 5, 62);
+}
+
+#nuestros-recursos p {
+    display: none;
+}
+
+#nuestros-recursos .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child {
+        background-image: url("estudio-compañia.jpg");
+}
+
+.carta:nth-child(2) {
+    background-image: url("estudio-compañia.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: url("estudio-compañia.jpg");
+
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 3vw;
+}
+
+#final button{
+    font-size: 1.5vw;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 25px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
